@@ -1,4 +1,7 @@
-runtime: php72
+runtime: php55
+api_version: 1
+threadsafe: true
+
 handlers:
 - url: /posts
-  script: auto
+  script: posts.php
