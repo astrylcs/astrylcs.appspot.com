@@ -1,4 +1,4 @@
 runtime: php72
 handlers:
 - url: /posts
-  script: posts.php
+  script: auto
