@@ -5,3 +5,5 @@ threadsafe: true
 handlers:
 - url: /posts
   script: posts.php
+  http_headers:
+    Access-Control-Allow-Origin: *
